@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="연습문제 1"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Width = Match Parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Width = wrap content"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Width =100dp"/>
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:text="100px"/>
+
+    <TextView
+        android:layout_width="1in"
+        android:layout_height="wrap_content"
+        android:text="Width = 1in"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10mm"
+        android:text="height = 10mm"/>
+
+</LinearLayout>
